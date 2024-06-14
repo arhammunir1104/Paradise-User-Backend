@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 //Cors
-let userURL = "http://localhost:5173";
+let userURL = "https://paradise-user.web.app";
 let corsOptions = {
     origin: userURL,
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
