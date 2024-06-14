@@ -350,7 +350,7 @@ app.post("/check/", (req, res)=>{
                 console.log(c);
                 console.log("");
                 console.log("");
-                res.status(200).json({msg: `The room is available for booking according to your Reservation Dates:  ${userstartingdate} to ${userendingdate}`, status: true});
+                res.status(200).json({msg: `The room is available for booking according to your Reservation Dates: <br />  ${userstartingdate} to ${userendingdate}`, status: true});
                 // res.send(`You can book the room because none has already book the room from ${userstartingdate} to ${userendingdate}`);
             };
             }
